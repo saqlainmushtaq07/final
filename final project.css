@@ -1,0 +1,424 @@
+body{
+    width: 100%;
+}
+
+.container-Responsive{
+    color: white;
+     height: 90vh; 
+    background-image: url(file:///C:/Users/HP/Desktop/TAQPA/final%20project/first.png);
+    /* background-repeat: no-repeat;  */
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.nav{
+    width: 100%;
+    /* border-bottom:1px solid #ffc107; */
+
+}
+
+.leftnav{
+    width: 40%;
+}
+
+
+.leftnav ul li{
+    display: inline-block;
+    padding: 15px;
+    margin-left: 1px;
+    margin-top: 10px;
+
+}
+
+.centernav{
+    width: 12%;
+    /* text-align: center; */
+
+}
+
+.rightnav{
+    width: 40%;
+}
+
+.rightnav ul{
+    margin-left: 40px;  
+
+}
+
+.leftnav ul li{
+    margin-left: 10px;
+
+}
+
+
+.rightnav ul li{
+    display: inline-block;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+#imgpizza{
+     
+ } 
+
+ /* #Breakfasr{
+    margin-top: -25%;
+    margin-left: 51%;
+    font-family: serif;
+    font-size: 55px;
+    color: #f59300;
+    font-weight: bold; */
+
+
+#id1{
+    margin-top: 18px;
+    margin-left: 0%;
+    font-size: 17px;
+    font-weight: bold;
+} 
+
+/* #button1{
+    margin-left: 51%;
+    margin-top: 20px;
+    padding: 10px 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #f59300;
+}  */
+
+#button1:hover{
+    background-color: rgb(68, 165, 64);
+}
+
+
+
+
+
+
+
+
+.section2{
+    background-image: url(file:///C:/Users/HP/Desktop/TAQPA/final%20project/Rectangle2.png);
+    /* background-color: tomato; */
+     height: 128vh; 
+
+}
+
+.section2 h1{
+    float: right;
+    margin-right: 39%;
+    font-weight: bold;
+    color: white;
+    margin-top: 160px;
+
+}
+
+.section2 p{
+    float: right;
+    margin-right: 22%;
+    margin-top: -31%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+
+#img{
+    padding: 60px;
+    margin-top: 50px;
+     margin-left: 100px; 
+
+}
+
+
+
+
+
+
+
+.section3{
+    background-image: url(file:///C:/Users/HP/Desktop/TAQPA/final%20project/Rectangle2.png);
+    /* background-color: burlywood; */
+     height: 290vh; 
+
+}
+
+#shape{
+    margin-top: 115px;
+}
+
+#food{
+    margin-top: -200%;
+    margin-left: 70%;
+}
+
+#bread{
+    width: 60%;
+    margin-left: 40%;
+    margin-top: -80%;
+
+}
+
+#jugd{
+    margin-top: -58%;
+    width: 35%;
+}
+
+#section3h1{
+    margin-top: -105%;
+    margin-left: 7%;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 50px;
+
+}
+
+.section3 p{
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 95px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section4{
+    background-image: url(file:///C:/Users/HP/Desktop/TAQPA/final%20project/Rectangle2.png);
+    /* background-color: cadetblue; */
+     height: 195vh; 
+
+}
+
+.section4 h1{
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.container-Responsive{
+    
+}
+
+#row{
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.section5{
+    background-image: url(./layer.png);
+     height: 140vh; 
+    width: 100%;
+}
+
+
+
+
+
+
+
+.section6{
+    background-image:url(./Rectangle2.png);
+     height: 140vh; 
+}
+
+
+
+
+
+
+
+
+.section7{
+    background-image: url(./Rectangle.png);
+    height: 60vh;
+}
+
+.section7 h1{
+    font-weight: bold;
+}
+
+.section7 p{
+    font-weight: bold;
+    font-size:18px;
+    margin-left: 45%;
+}
+
+#lastbox{
+    margin-top: -80px;
+
+}
+
+
+
+.section8{
+    background-image: url(./Rectangle2.png);
+     height: 60vh; 
+}
+
+#section8row{
+    width: 65%;
+    margin-left: 41%;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (width: 768px){
+    .nav {
+        height: 14vh;
+    }
+
+    .rightnav ul {
+        margin-left: -25px;
+        font-size: 11px;
+    }
+
+    .leftnav ul li {
+        font-size: 11px;
+        margin-left: -7px;
+    }
+
+    img{
+        width: 80px; 
+        margin-left: 20px; 
+    }
+
+    #imgpizza{
+        margin-top: 118px;
+    } 
+
+    #bread {
+        width: 60%;
+        margin-left: 41%;
+        margin-top: -81%;
+    }
+
+    #food {
+        margin-top: -210%;
+        margin-left: 67%;
+        width: 33%;
+    }
+
+    .section2 p {
+        float: right;
+        margin-right: 7%;
+        margin-top: 0%;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .section2 h1 {
+        float: right;
+        margin-right: 36%;
+        font-weight: bold;
+        color: white;
+        margin-top: 140px;
+        padding-bottom: 30px;
+    }
+
+    .section2 {
+        height: 100vh;
+    }
+
+    #shape {
+        margin-top: 100px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #jugd {
+        margin-top: -62%;
+        width: 35%;
+        margin-left: 0px;
+    }
+
+    #section3h1 {
+        margin-top: -113%;
+        font-size: 35px;
+    }
+
+    .section3 p {
+        font-weight: bold; 
+        font-size: 16px;
+        margin-left: 57px;
+    }
+
+    .section3 {
+        height: 210vh;
+    }
+
+    .section4 h1{
+        font-size: 45px;
+    }
+
+    .section4 {
+        height: 100vh;
+    }
+
+    .section7 {
+        height: 74vh;
+    }
+
+    #lastbox {
+        margin-top: 50px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #section8row{
+        width: 65%;
+        margin-left: 33%;
+        margin-top: 38px;
+        column-gap: 20px;
+    }
+
+    #mushtaq{
+        margin-top: -50px;
+        margin-left: -25px;
+    }
+
+    #section8{
+        width: 35px;
+    }
+
+
+
+    /* #sectioncol{
+        margin-top: -60px;
+        margin-left: -55px;
+    } */
+
+
+}
